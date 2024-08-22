@@ -1,0 +1,135 @@
+@media (max-width: 993px){
+    .menu-div {
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+}
+@media (max-width: 575px){
+    .skill-div{
+        width: 79%;
+    }
+    .centering{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 900px){
+    .main-header-bg {
+        width: 100%;
+        height: 535px;
+        background-image: url(images/about.png);
+        background-size: cover;
+        background-position: center;
+    }
+    .btn-head {
+        background-color: rgb(253, 198, 114);
+        color: black;
+        margin-left: 75%;
+        margin-top: -2%;
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 10px;
+        padding-left: 40px;
+        padding-bottom: 10px;
+        padding-right: 40px;
+        letter-spacing: 2PX;
+        border-radius: 25PX;
+    }
+    .exp-p{
+        background: transparent;
+    }
+    .sm-para-head {
+        padding-left: 71PX;
+        font-size: 20px;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        background: transparent;
+        word-spacing: 2px;
+    }
+    .HEADING-NAME {
+        padding-left: 71PX;
+        font-size: 43px;
+        font-weight: 900;
+        letter-spacing: 5px;
+        color: white;
+        background: transparent;
+    }
+    .b-tag-trans{
+        background: transparent;
+    }
+    .heading-hi {
+        padding-left: 71px;
+        font-size: 20px;
+        font-weight: bolder;
+        letter-spacing: 3px;
+        color: rgb(255, 193, 117);
+        background: transparent;
+    }
+    .text-head {
+        margin-top: 29%;
+        background: transparent;
+    }
+    .main-header-text {
+        width: 100%;
+        height: 535px;
+        position: absolute;
+        background: transparent;
+    }
+    .main-header-div {
+        height: 535px;
+        width: 100%;
+        background-color: rgb(39, 39, 39);
+        background-image: url(images/about.png);
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 760px){
+    .text-head {
+        margin-top: 33%;
+        background: transparent;
+    }
+}
+@media (max-width: 700px){
+    .text-head {
+        margin-top: 38%;
+        background: transparent;
+    }
+    .exp-p {
+        background: transparent;
+        display: none;
+    }
+}
+@media (max-width: 605px){
+    .text-head {
+        margin-top: 45%;
+        background: transparent;
+    }
+}
+@media (max-width: 590px){
+    .text-head {
+        margin-top: 38%;
+        background: transparent;
+    }
+}
+@media (max-width: 1202px){
+    .main-card-div {
+        width: 75%;
+    }
+    .res-adjust{
+        font-size: 20px;
+    }
+}
+@media (max-width: 770px){
+    .project-para-parent {
+        padding-left: 20%;
+        padding-top: 5%;
+    }
+    .pro-head12{
+        font-size: -webkit-xxx-large;
+    margin-bottom: 2%;
+    padding-top: 15%;
+    }
+}
